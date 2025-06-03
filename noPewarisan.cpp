@@ -20,10 +20,3 @@ class derivedClass : public baseClass1 {
         void perkenalan() {
             cout << "Hallo saya function dari derived Class";
         }
-};
-int main() {
-    derivedClass a;
-    a.perkenalan();
-
-    return 0;
-}
